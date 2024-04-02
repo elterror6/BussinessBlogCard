@@ -1,0 +1,100 @@
+@import url("https://www.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://www.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F2F5F9;
+    font-size: 1rem;
+}
+main {
+    max-width: 100%;
+}
+.bussiness-blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 417px;
+    max-width: 100%SSS;
+    background-color: #FFFF;
+    border: none;
+    border-radius: 0.7rem;
+}
+.bbc-header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+}
+.bussiness-img {
+    flex: 1;
+    object-fit: cover;
+    max-width: 100%;
+    border: none;
+    border-radius: 0.7rem;
+}
+.overlay {
+    max-width: 100%;
+    object-fit: fill;
+    position: absolute;
+    bottom: -1%;
+}
+
+.bbc-content {
+    margin-left: 1.5rem;
+}
+
+.bbc-content h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.bbc-content p {
+    color: #677489;
+    margin-bottom: 1rem;
+}
+
+hr {
+    width: 100%;
+    border-color: #F2F5F9;
+    border-width: 1px;
+    opacity: 0.2;
+    margin: 0;
+}
+.bbc-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 1.2rem;
+}
+
+.bbc-footer img {
+    border-radius: 100%;
+    width: 11%;
+    border: 0.25em solid rgba(103, 116, 137, 0.2);
+}
+.bbc-footer div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bbc-footer div p {
+    margin: 0;
+    margin-left: 5%;
+
+}
+.bbc-footer div p[name=name] {
+    font-weight: bold;
+}
+.bbc-footer div p[name=job] {
+    font-size: small;
+    color: #677489;
+}
